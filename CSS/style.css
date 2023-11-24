@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+}
+
+nav {
+    background-color: #9376e0;
+}
+
+.nav-container {
+    /* border: 1px solid red; border niyae kaaj korle bhujha jai  */
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.logo-container {
+    /* border: 1px solid green; */
+    display: flex;
+    width: 50%;
+}
+
+.logo-container img {
+    width: 50px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.logo-container p {
+    font-size: 30px;
+}
+
+.hive-section {
+    color: #e893cf;
+}
+
+.nav-items-container {
+    width: 50%;
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-items-container a {
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+}
+
+.nav-items-container .login-btn {
+    background-color: #e893cf;
+    padding: 10px 20px;
+    font-weight: 700;
+    border-radius: 5px;
+    color: black;
+}
