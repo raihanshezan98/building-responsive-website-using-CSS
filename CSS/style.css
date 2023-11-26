@@ -1,4 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+/* font family styles  */
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lato&display=swap');
+
+/* universal & body styles  */
 
 * {
     box-sizing: border-box;
@@ -8,6 +12,8 @@ body {
     font-family: 'Lato', sans-serif;
     margin: 0;
 }
+
+/* navbar styles  */
 
 nav {
     background-color: #9376e0;
@@ -62,4 +68,67 @@ nav {
     font-weight: 700;
     border-radius: 5px;
     color: black;
+}
+
+/* banner styles */
+
+.banner-container {
+    /* border: 1px solid red; */
+    max-width: 1400px;
+    margin: 50px auto 0;
+    min-height: 50px;
+    display: flex;
+    background-color: #e6e9eb;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.banner-text {
+    /* border: 1px solid green; */
+    width: 50%;
+    text-align: center;
+}
+
+.banner-text h1 {
+    background-image: linear-gradient(to bottom, #9376e0, #e893cf);
+    color: transparent;
+    -webkit-background-clip: text;
+    font-size: 50px;
+}
+
+.banner-text p {
+    font-family: 'Dancing Script', cursive;
+    font-size: 45px;
+}
+
+.icon-container {
+    /* border: 1px solid orchid; */
+    width: 50%;
+    margin: 0 auto 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner-image {
+    /* border: 1px solid blue; */
+    width: 50%;
+}
+
+.banner-image img {
+    width: 100%;
+    height: 100%;
+    /* height: auto;  default value */
+    border-radius: 10px;
+}
+
+.fa-brands {
+    font-size: 50px;
+}
+
+.banner-btn {
+    background-color: transparent;
+    padding: 10px 20px;
+    border: 2px solid #9376e0;
+    border-radius: 5px;
+    margin-right: 20px;
 }

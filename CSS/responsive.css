@@ -1,4 +1,7 @@
 @media screen and (max-width: 400px) {
+
+    /* nav response */
+
     .nav-container {
         flex-direction: column;
     }
@@ -19,5 +22,32 @@
     .nav-items-container .login-btn {
         width: 100%;
         margin-bottom: 10px;
+    }
+
+    /* banner respose */
+
+    .banner-container {
+        flex-direction: column;
+    }
+
+    .banner-text, .banner-image {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .banner-text h1 {
+        font-size: 35px;
+    }
+
+    .banner-text p {
+        font-size: 25px;
+    }
+
+    .fa-brands {
+        font-size: 25px;
+    }
+
+    .banner-btn{
+        margin-left: 20px;
     }
 }
