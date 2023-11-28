@@ -1,8 +1,7 @@
-
 /* For large screen and Mainted descending order */
 
 @media screen and (max-width: 800px) {
-    .grid-container{
+    .grid-container {
         grid-template-columns: repeat(3, 1fr);
     }
 }
@@ -10,11 +9,11 @@
 /* For medium screen and Mainted descending order */
 
 @media screen and (max-width: 700px) {
-    .grid-container{
+    .grid-container {
         grid-template-columns: repeat(2, 1fr);
     }
 }
- 
+
 /* For small screen and Mainted descending order */
 
 @media screen and (max-width: 400px) {
@@ -77,5 +76,25 @@
         grid-template-columns: 1fr;
     }
 
+    /* discount response */
+
+    .discount-container {
+        flex-direction: column;
+    }
+
+    .discount-img,
+    .discount-text {
+        width: 100%;
+        padding: 0 10px;
+        text-align: center;
+    }
+
+    .discount-number {
+       
+        width: 45px;
+        height: 45px;
+        font-size: 1rem;
+        font-weight: 600;
+    }
 
 }

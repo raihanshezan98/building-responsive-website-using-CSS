@@ -189,3 +189,64 @@ nav {
 .fa-eye {
     background-color: lightblue;
 }
+
+/* discount styles */
+
+.discount-section {
+    background-color: #9376e0;
+    margin-top: 50px;
+    min-height: 500px;
+}
+
+.discount-container {
+    /* border: 1px solid red; */
+    max-width: 1400px;
+    min-height: 200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    padding: 50px 0;
+}
+
+
+.discount-img {
+    width: 50%;
+    /* border: 1px solid red; */
+    position: relative;
+}
+
+.discount-img img {
+    width: 70%;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.discount-number {
+    background-color: wheat;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.67rem;
+    font-weight: 600;
+    position: absolute;
+    top: 5%; /*  percentage e korsi maneh relative unit use korsi dekhe j kono screen e eki position dekhabe */
+    left: 70%;
+}
+
+.discount-text {
+    width: 50%;  
+    /* border: 1px solid blue; */
+}
+
+.buy-now-btn {
+    background-color: transparent;
+    padding: 10px 20px;
+    border: 2px solid white;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
