@@ -1,3 +1,22 @@
+
+/* For large screen and Mainted descending order */
+
+@media screen and (max-width: 800px) {
+    .grid-container{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+/* For medium screen and Mainted descending order */
+
+@media screen and (max-width: 700px) {
+    .grid-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+ 
+/* For small screen and Mainted descending order */
+
 @media screen and (max-width: 400px) {
 
     /* nav response */
@@ -30,7 +49,8 @@
         flex-direction: column;
     }
 
-    .banner-text, .banner-image {
+    .banner-text,
+    .banner-image {
         width: 100%;
         margin-bottom: 20px;
     }
@@ -47,7 +67,15 @@
         font-size: 25px;
     }
 
-    .banner-btn{
+    .banner-btn {
         margin-left: 20px;
     }
+
+    /* product response */
+
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+
+
 }
