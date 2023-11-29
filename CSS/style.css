@@ -169,7 +169,7 @@ nav {
 }
 
 .product-icon-name-container span {
-   margin-left: 5px;
+    margin-left: 5px;
 }
 
 .product-icon {
@@ -178,11 +178,11 @@ nav {
     border-radius: 50%;
 }
 
-.fa-cart-shopping{
+.fa-cart-shopping {
     background-color: lightcoral;
 }
 
-.fa-credit-card{
+.fa-credit-card {
     background-color: lightgreen;
 }
 
@@ -233,12 +233,13 @@ nav {
     font-size: 1.67rem;
     font-weight: 600;
     position: absolute;
-    top: 5%; /*  percentage e korsi maneh relative unit use korsi dekhe j kono screen e eki position dekhabe */
+    top: 5%;
+    /*  percentage e korsi maneh relative unit use korsi dekhe j kono screen e eki position dekhabe */
     left: 70%;
 }
 
 .discount-text {
-    width: 50%;  
+    width: 50%;
     /* border: 1px solid blue; */
 }
 
@@ -250,3 +251,41 @@ nav {
     font-weight: 600;
     cursor: pointer;
 }
+
+/* user review section styles  */
+
+.user-review-section {
+    /* border: 1px solid red; */
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 20px;
+}
+
+.single-card-review {
+    /* border: 1px solid blue; */
+    background-color: #e893cf;
+    flex-basis: 300px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.user-info {
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.customer-name {
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.user-info img {
+    width: 60px;
+    height: 60px;
+}
+
